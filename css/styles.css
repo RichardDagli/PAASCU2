@@ -98,17 +98,39 @@ padding: 0 2% ;
 
 }
 
-@media (max-width:1000px){
+@media (max-width:1024px){
   .image1 {
     position: static;
     transform: rotate(0deg);
     padding: 5%;
-    width: 70%;
+    width: 80%;
   }
 
   .titlerow{
     text-align: center;
   }
+
+  .icons{
+  font-size: 10rem;
+  text-align: center;
+  padding: 0 2% ;
+
+  }
+
+  .feature-heading{
+    font-size: 5rem;
+  }
+.feature-text{
+  font-size: 3rem;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+}
+.titlebig{
+  font-size: 7rem;
+}
+
 }
 
 
