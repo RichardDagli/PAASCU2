@@ -98,6 +98,8 @@ padding: 0 2% ;
 
 }
 
+
+
 @media (max-width:1024px){
   .image1 {
     position: static;
@@ -131,10 +133,24 @@ padding: 0 2% ;
   font-size: 7rem;
 }
 
+.nav{
+  font-size: 3rem;
 }
 
+.navbutt{
+  font-size: 2rem;
+}
 
+.navbar-toggler-icon{
+  font-size: 3rem;
+}
 
+.btn-responsive {
+    padding:4% 10%;
+    font-size:3rem;
+    line-height: 1;
+}
+}
 
 .features{
 
