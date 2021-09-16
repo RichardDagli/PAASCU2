@@ -1,6 +1,6 @@
-#title{background-color: #1fab89;}
+#title{background-color: #2e8b57;}
 h1{
-  font-family: 'Ubuntu';
+  font-family: 'Montserrat';
   font-size: 3rem;
   line-height: 1;
   color: #fff;
@@ -19,13 +19,19 @@ font-size:1rem;
 .logo{
     width: 7%;
     padding: 1% 1% 0;
-
-
-
 }
+
+a{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
 #pricing{
 
-  background-color: #d7fbe8;
+background-color: #fff;
 text-align: center;
 padding: 3% 7% 3%;
 
@@ -35,7 +41,7 @@ padding: 3% 7% 3%;
 
 #cta{
   text-align: center;
-  padding:   5rem 0 5rem;
+  padding:   2rem 0 2rem;
   background-color: #1fab89;
   color:#fff;
 
@@ -54,9 +60,9 @@ margin-top: 5%
 
 .carousel-item {
   text-align: center;
-  background-color:#1fab89;
+  background-color:#00a572;
   padding: 5% 10%;
-  font-family: 'Ubuntu';
+  font-family: 'Montserrat';
   font-size: 3rem;
   line-height: 1.5;
   color:#fff;
@@ -84,19 +90,108 @@ padding: 0 2% ;
 }
 
 .navbar-brand{
-  font-family: "ubuntu";
-  font-size: 3rem;
+  font-family: "Montserrat";
+  font-size: 2rem;
   font-weight: bold;
+  padding:0 0 0 4%;
 }
+
+.tour{
+background-color:#fff;
+padding:1% 0 0;
+font-size: 3rem;
+color:black;
+}
+
+.fontIcon{
+height: 60px;
+width: 60px;
+
+border-radius: 1px;
+}
+
+.tour2{
+
+
+font-size: 3rem;
+color:black;
+}
+
+.carousel-control-next-icon{
+font-size: 5rem;
+}
+
+
+
+
 
 .navbar{
   padding: 0 8rem ;
+  background-color:#fff;
+
 }
 
 .image1{
   transform: rotate(5deg);
+    width: 120%;
+    padding: 0 5% 0% 0;
 
 }
+
+
+
+@media (max-width:1024px){
+  .image1 {
+    position: static;
+    transform: rotate(0deg);
+    padding: 5%;
+    width: 80%;
+  }
+
+  .titlerow{
+    text-align: center;
+  }
+
+  .icons{
+  font-size: 10rem;
+  text-align: center;
+  padding: 0 2% ;
+
+  }
+
+  .feature-heading{
+    font-size: 5rem;
+  }
+.feature-text{
+  font-size: 3rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+.titlebig{
+  font-size: 7rem;
+}
+
+.nav{
+  font-size: 3rem;
+}
+
+.navbutt{
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon{
+  font-size: 3rem;
+}
+
+.btn-responsive {
+    padding:4% 10%;
+    font-size:3rem;
+    line-height: 1;
+}
+}
+
 .features{
 
 list-style-image:
@@ -111,4 +206,7 @@ list-style-image:
 }
 .butt{
   margin-top: 5%;
+}
+.titlebig{
+  font-size: 4.5rem;
 }
