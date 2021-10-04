@@ -8,6 +8,21 @@ h1{
 
 
 
+
+  .icon {
+ margin: auto;
+     height: 80px;
+     text-align: center;
+
+     display: block;
+     /* Other styles here */
+ }
+
+
+
+
+
+
 #press{
   padding: 1% 0 1%;
   text-align: center;
@@ -16,16 +31,37 @@ font-size:1rem;
 
 
 }
+.titlemedium{
+    font-size: 4rem;
+    padding: 0 5% 1%;
+}
+
+
+
+}
 .logo{
     width: 7%;
     padding: 1% 1% 0;
 }
 
+
+
+
 a{
-  color: black;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.a{
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
+
 
 
 
@@ -41,9 +77,9 @@ padding: 3% 7% 3%;
 
 #cta{
   text-align: center;
-  padding:   2rem 0 2rem;
-  background-color: #1fab89;
-  color:#fff;
+  padding:   0 0 .5%;
+  background-color: #fff;
+  color:black;
 
 
 }
@@ -53,7 +89,7 @@ padding: 3% 7% 3%;
 margin-top: 5%
 }
 .titlerow{
-  padding: 8% 10% 2%;
+  padding: 5% 3% 5%;
 
 }
 
@@ -74,6 +110,7 @@ p{font-size:1.5rem;}
 
 .container-fluid{
 padding: 2% 0 4%;
+
 }
 
 
@@ -122,7 +159,11 @@ font-size: 5rem;
 }
 
 
+h3{
+  color: white;
+  text-align: center;
 
+}
 
 
 .navbar{
@@ -133,8 +174,8 @@ font-size: 5rem;
 
 .image1{
   transform: rotate(5deg);
-    width: 120%;
-    padding: 0 5% 0% 0;
+    width: 100%;
+    padding: 5% 10% 0% 5%;
 
 }
 
@@ -145,7 +186,7 @@ font-size: 5rem;
     position: static;
     transform: rotate(0deg);
     padding: 5%;
-    width: 80%;
+    width: 70%;
   }
 
   .titlerow{
@@ -159,11 +200,13 @@ font-size: 5rem;
 
   }
 
-  .feature-heading{
-    font-size: 5rem;
+  .f{
+    font-size: 1rem;
+    color: #fff;
   }
+
 .feature-text{
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .navbar-brand{
@@ -199,10 +242,10 @@ list-style-image:
 
 #footer{
   text-align: center;
-  padding: 3% 0 3%;
-  background-color: #596e79;
+  padding: 1% 0 .5%;
+  background-color: #fff;
   font-size: 1rem;
-  color: #fff;
+  color: black;
 }
 .butt{
   margin-top: 5%;
