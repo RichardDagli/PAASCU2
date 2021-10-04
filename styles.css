@@ -1,0 +1,255 @@
+#title{background-color: #2e8b57;}
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1;
+  color: #fff;
+}
+
+
+
+
+  .icon {
+ margin: auto;
+     height: 80px;
+     text-align: center;
+
+     display: block;
+     /* Other styles here */
+ }
+
+
+
+
+
+
+#press{
+  padding: 1% 0 1%;
+  text-align: center;
+  background-color: #d7fbe8;
+font-size:1rem;
+
+
+}
+.titlemedium{
+    font-size: 4rem;
+    padding: 0 5% 1%;
+}
+
+
+
+}
+.logo{
+    width: 7%;
+    padding: 1% 1% 0;
+}
+
+
+
+
+a{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+
+.a{
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+#pricing{
+
+background-color: #fff;
+text-align: center;
+padding: 3% 7% 3%;
+
+
+
+}
+
+#cta{
+  text-align: center;
+  padding:   0 0 .5%;
+  background-color: #fff;
+  color:black;
+
+
+}
+
+
+.butt{
+margin-top: 5%
+}
+.titlerow{
+  padding: 5% 3% 5%;
+
+}
+
+
+.carousel-item {
+  text-align: center;
+  background-color:#00a572;
+  padding: 5% 10%;
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  color:#fff;
+
+}
+
+
+p{font-size:1.5rem;}
+
+.container-fluid{
+padding: 2% 0 4%;
+
+}
+
+
+.icons{
+font-size: 3rem;
+text-align: center;
+padding: 0 2% ;
+
+}
+
+
+.device{
+  padding: 0 0;
+}
+
+.navbar-brand{
+  font-family: "Montserrat";
+  font-size: 2rem;
+  font-weight: bold;
+  padding:0 0 0 4%;
+}
+
+.tour{
+background-color:#fff;
+padding:1% 0 0;
+font-size: 3rem;
+color:black;
+}
+
+.fontIcon{
+height: 60px;
+width: 60px;
+
+border-radius: 1px;
+}
+
+.tour2{
+
+
+font-size: 3rem;
+color:black;
+}
+
+.carousel-control-next-icon{
+font-size: 5rem;
+}
+
+
+h3{
+  color: white;
+  text-align: center;
+
+}
+
+
+.navbar{
+  padding: 0 8rem ;
+  background-color:#fff;
+
+}
+
+.image1{
+  transform: rotate(5deg);
+    width: 100%;
+    padding: 5% 10% 0% 5%;
+
+}
+
+
+
+@media (max-width:1024px){
+  .image1 {
+    position: static;
+    transform: rotate(0deg);
+    padding: 5%;
+    width: 70%;
+  }
+
+  .titlerow{
+    text-align: center;
+  }
+
+  .icons{
+  font-size: 10rem;
+  text-align: center;
+  padding: 0 2% ;
+
+  }
+
+  .f{
+    font-size: 1rem;
+    color: #fff;
+  }
+
+.feature-text{
+  font-size: 2rem;
+}
+
+.navbar-brand{
+  font-size: 2rem;
+}
+.titlebig{
+  font-size: 7rem;
+}
+
+.nav{
+  font-size: 3rem;
+}
+
+.navbutt{
+  font-size: 2rem;
+}
+
+.navbar-toggler-icon{
+  font-size: 3rem;
+}
+
+.btn-responsive {
+    padding:4% 10%;
+    font-size:3rem;
+    line-height: 1;
+}
+}
+
+.features{
+
+list-style-image:
+}
+
+#footer{
+  text-align: center;
+  padding: 1% 0 .5%;
+  background-color: #fff;
+  font-size: 1rem;
+  color: black;
+}
+.butt{
+  margin-top: 5%;
+}
+.titlebig{
+  font-size: 4.5rem;
+}
