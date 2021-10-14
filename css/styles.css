@@ -9,18 +9,24 @@ h1{
 
 
 
+
+
+
   .icon {
  margin: auto;
-     height: 80px;
+     height: 100px;
      text-align: center;
+display:block;
 
-     display: block;
+
      /* Other styles here */
  }
 
 
-
-
+.butt{
+  display: block;
+margin-top: 5%;
+}
 
 
 #press{
@@ -52,7 +58,8 @@ a{
   background-color: transparent;
   text-decoration: none;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.2rem
+
 }
 
 
@@ -85,9 +92,11 @@ padding: 3% 7% 3%;
 }
 
 
-.butt{
-margin-top: 5%
-}
+
+
+
+
+
 .titlerow{
   padding: 5% 3% 5%;
 
@@ -162,6 +171,7 @@ font-size: 5rem;
 h3{
   color: white;
   text-align: center;
+    font-size: 1.2rem;
 
 }
 
@@ -246,10 +256,7 @@ list-style-image:
   background-color: #fff;
   font-size: 1rem;
   color: black;
-}
-.butt{
-  margin-top: 5%;
-}
+
 .titlebig{
   font-size: 4.5rem;
 }
