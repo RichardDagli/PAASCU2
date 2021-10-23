@@ -8,16 +8,45 @@ h1{
 
 
 
+.btn {
+  display: inline-block;
+
+  color: White;
+  text-align: center;
+  text-decoration: if($link-decoration == none, null, none);
+  white-space: $btn-white-space;
+  vertical-align: middle;
+  user-select: none;
+  background-color: transparent;
+  border: $btn-border-width solid transparent;
+
+  }
+
+
+  .blk {
+  
+
+    color: black;
+
+
+    }
+
+
+
+
+
+
+
 
   .icon {
  margin: auto;
-     height: 80px;
+     height: 100px;
      text-align: center;
+display:block;
 
-     display: block;
+
      /* Other styles here */
  }
-
 
 
 
@@ -46,13 +75,21 @@ font-size:1rem;
 
 
 
+.butt{
+  display: block;
+    font-size: 1.5rem;
+margin-top: 5%
+  color: white;
+}
 
 a{
   color: white;
   background-color: transparent;
   text-decoration: none;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
+
+
 }
 
 
@@ -85,9 +122,11 @@ padding: 3% 7% 3%;
 }
 
 
-.butt{
-margin-top: 5%
-}
+
+
+
+
+
 .titlerow{
   padding: 5% 3% 5%;
 
@@ -106,10 +145,13 @@ margin-top: 5%
 }
 
 
-p{font-size:1.5rem;}
+p{font-size:1.5rem;
+color: white;
+}
 
 .container-fluid{
 padding: 2% 0 4%;
+
 
 }
 
@@ -162,6 +204,7 @@ font-size: 5rem;
 h3{
   color: white;
   text-align: center;
+    font-size: 1.2rem;
 
 }
 
@@ -175,7 +218,7 @@ h3{
 .image1{
   transform: rotate(5deg);
     width: 100%;
-    padding: 5% 10% 0% 5%;
+    padding: 5% 5% 0% 2%;
 
 }
 
@@ -233,7 +276,7 @@ h3{
     font-size:3rem;
     line-height: 1;
 }
-}
+
 
 .features{
 
@@ -246,9 +289,6 @@ list-style-image:
   background-color: #fff;
   font-size: 1rem;
   color: black;
-}
-.butt{
-  margin-top: 5%;
 }
 .titlebig{
   font-size: 4.5rem;
